@@ -4,6 +4,7 @@
         <meta charset="utf-8"/>
         <title>gogole</title>
         <link rel="stylesheet"  href="mef.css"/>
+        <script src="java_go.js"></script>
     </head>
     <body>
       <header>
@@ -24,13 +25,16 @@
             </div>
           </div>
       </header>
+
+      <input type="button" value="afficher les élements centraux" id="display" onclick="affichage()"></input>
+
       <section id="section">
 
         <div scr="https://www.google.fr/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="logo_google" id="logo"></div>
-        <div id="recherche1"> <input type="text" size=75px>
+        <div id="recherche1"> <input type="text" size=75px id="barre" ></div>
         </div>
         <div id="recherche2">
-          <input type="button" value= "Recherche Google">
+          <input type="button" value= "Recherche Google" onclick="adresse()">
           <input type="button" value="Jai de la chance">
         </div>
       </section>

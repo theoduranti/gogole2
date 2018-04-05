@@ -43,15 +43,18 @@ footer{
 
 }
 
-.bas{
-  width: auto;
-  display: flex;
+#display{
+  display: block;
+  margin: 0 auto;
 }
+
+
 
 #section
 {
   width:100%;
   margin-top:10%;
+  display: none;
 
 }
 
@@ -82,6 +85,15 @@ p{
 }
 
 
+
+.bas{
+  width: auto;
+  display: flex;
+}
+
+
+
+
 .haut {
   width: 1500px;
   border: 1px solid rgba(0,0,0,.3);
@@ -103,6 +115,4 @@ p{
 
 .droite{
   position: fixed; right:0;
-
-
 }
